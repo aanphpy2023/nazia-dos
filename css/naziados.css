@@ -228,6 +228,7 @@ a:hover {
     padding: 0.5em;
     width: 30%;
     flex-shrink: 0;
+    font-size: 1em;
 }
 
 .input {
@@ -237,11 +238,10 @@ a:hover {
     border-right: 1px solid rgb(255, 255, 255);
     border-top: 1px solid rgb(0, 0, 0);
     border-left: 1px solid rbg(0, 0, 0);
-    padding: 0.5em;
-    /* flex-grow: 1; */
+    padding: 0.3em;
     flex: 1;
     height: fit-content;
-    margin-top: 0.5em;
+    font-size: 1em;
 }
 
 .input:focus {
@@ -319,6 +319,7 @@ label:focus-within {
     clear: both;
     width: 100%;
     flex-wrap: wrap;
+    padding-bottom: 0.3em;
 }
 
 .col {
