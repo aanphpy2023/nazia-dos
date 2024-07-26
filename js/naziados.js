@@ -4,13 +4,6 @@
 
     let lastZIndex = 0;
 
-    function getLastZIndex () {
-        return Math.max(...Array.from(document.querySelectorAll('*')).map(element => {
-          const zIndex = window.getComputedStyle(element).zIndex;
-          return zIndex === 'auto' ? -1 : parseInt(zIndex);
-        }));
-    }
-
     function initCloseButtons () {
         document.addEventListener('click', function(event) {
             let closeButton = event.target.closest('.box-close');
